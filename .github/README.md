@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-secrets-manager`](https://www.npmjs.com/package/@aws-sdk/client-secrets-manager/v/3.347.0).
+[`@aws-sdk/client-secrets-manager`](https://www.npmjs.com/package/@aws-sdk/client-secrets-manager/v/3.347.1).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-secrets-manager@3.347.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-secrets-manager@3.347.1/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-OgVW6P+i1AIU7Cs6JoCHece98EQSLFzTRypNY2YW3XJdwEnNNdLOYbomjf6eOmZn
+sha384-W1kRSL2IOQcBnuW3XmxCyEiG5HQ9xv9pPNG+ek3e9jEgq/xCt/zBb+VZUK0POGQR
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-secrets-manager": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-secrets-manager@3.347.0/index.min.mjs"
+            "@aws-sdk/client-secrets-manager": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-secrets-manager@3.347.1/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-secrets-manager@3.347.0/index.min.mjs": "sha384-OgVW6P+i1AIU7Cs6JoCHece98EQSLFzTRypNY2YW3XJdwEnNNdLOYbomjf6eOmZn"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-secrets-manager@3.347.1/index.min.mjs": "sha384-W1kRSL2IOQcBnuW3XmxCyEiG5HQ9xv9pPNG+ek3e9jEgq/xCt/zBb+VZUK0POGQR"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-secrets-manager": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-secrets-manager@3.347.0/index.min.mjs"
+                        "@aws-sdk/client-secrets-manager": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-secrets-manager@3.347.1/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-secrets-manager@3.347.0/index.min.mjs": "sha384-OgVW6P+i1AIU7Cs6JoCHece98EQSLFzTRypNY2YW3XJdwEnNNdLOYbomjf6eOmZn"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-secrets-manager@3.347.1/index.min.mjs": "sha384-W1kRSL2IOQcBnuW3XmxCyEiG5HQ9xv9pPNG+ek3e9jEgq/xCt/zBb+VZUK0POGQR"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.347.0`)
+* Always pin to a specific version (`@3.347.1`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-secrets-manager/blob/refs/tags/3.347.0/LICENSE
+https://github.com/cloud-sdk-builds/client-secrets-manager/blob/refs/tags/3.347.1/LICENSE
 ```
 
 ---
